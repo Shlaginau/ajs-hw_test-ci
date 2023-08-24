@@ -1,4 +1,4 @@
-export default function getHealthStatus(health) {
+export default function getHealthStatus({ name, health }) {
   if (health > 50) {
     return 'healthy';
   } if (health >= 15) {
